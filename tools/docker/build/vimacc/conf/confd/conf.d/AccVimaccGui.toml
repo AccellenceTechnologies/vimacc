@@ -1,0 +1,9 @@
+[template]
+src = "AccVimaccGui.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccGui.conf"
+keys = [
+    "vimacc/gui/videorenderer",
+    "vimacc/gui/autologout/inactivitysecs",
+    "vimacc/gui/autologout/warnsecs",
+    "vimacc/gui/showalllivestreams"
+]

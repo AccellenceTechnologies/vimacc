@@ -1,0 +1,7 @@
+[template]
+src = "AccVimaccReportClient.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccReportClient.conf"
+keys = [
+    "vimacc/logging/default",
+    "vimacc/reportclient/serverport"
+]

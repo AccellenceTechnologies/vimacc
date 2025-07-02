@@ -1,0 +1,244 @@
+[General]
+initVideowall=alse
+RecoverLastConfigOnStart=true
+
+[Logging]
+Level={{ getv "/vimacc/logging/default" }}
+
+[Layout]
+useDefaultLayout=false
+qssFile=stylesheet.qss
+geometry="0,0,100,100"
+screen=0
+
+[DisplayOptions]
+StartInFullscreen=false
+KeepSizeInFullscreen=true
+HideVideoControls=false
+HideDeviceTree=false
+HideToolBar=false
+HideStatusBar=false
+HideCursorInFullscreen=false
+HideMapTab=false
+AutoShowHideVideoControls=false
+
+[VideoPanelOptions]
+initialLayout=2x2
+useTruncatedStreamNames=true
+videoBackgroundColor=#000000
+videoStandByColor=#000040
+liveFrameColor=#33CC66
+liveTextColor=#000000
+playbackFrameColor=#9999FF
+playbackTextColor=#000000
+sequenceFrameColor=#9ACEE2
+sequenceTextColor=#000000
+dialogBackgroundColor=#000000
+dialogSelectedBackgroundColor=#000000
+dialogFrameColor=#A9A9A9
+dialogSelectedFrameColor=#0000FF
+;dialogBackgroundImage="path/to/imageFile.png"
+frameWidth=3
+gridFrameWidth=1
+statusLine=true
+fontSize=8
+defaultScaleMode=KEEP
+hideAlarm=false
+centerMouseWhileZooming=true
+;layoutShortcutsInToolbar="1x1;1+8;2x2"
+;preferredStreamQuality=low
+;seamlessResolutionTransition=false ;if active (default) the LiveVideoConnector is used, else the Controller is instanciated directly
+;stopDecoderIfPlayerNotVisible=false
+
+[DeviceManager]
+EnableUpdateEvents=true
+EnableStreamingStateUpdates=false
+
+[MapOptions]
+initialMap=H_Garbsen.map
+
+[ScenarioShortcuts]
+;J1=scenario_name_or_id
+;J2=scenario_name_or_id
+;J3=scenario_name_or_id
+;J4=scenario_name_or_id
+
+[PTZControl]
+MyOwnerName=Workstation01
+MyPrio=0
+
+[FilterOptions]
+;workgroupFilter="WALL1;WALL2"
+;pathFilter="Central/Location 1;On Site/Location 2"
+
+[PlaybackOptions]
+StartAtRangeEnd=true
+SecDiffToStartPoint=10
+TimeLineAutoRefreshInterval=0
+AutoPlayAtStart=false
+MaxPlaybackSpeed=1000
+UseClockControl=true
+ShowMergePartList=true
+ColorContentMergeParts=#48DA0000
+;SessionFilter=.*(archiv).*
+;SessionFilter=^((?!longterm).)*$
+;SessionFilter=(srv_rec_longterm_archiv_0001)
+;SessionFilter=^((?!srv_rec_t[0-9]-[0-9]_).)*$
+;MergePriorities=fps  //default
+;MergePriorities=session:^((?!longterm).)*$
+;MergePriorities=stream:^.*(_0003)$
+; Defines the maximum number of tags/bookmarks to retrieve and paint on the timeline. Use to provide acceptable loading times when user double clicks or drops playbacks.
+;TimelineTagsLimitSoft=20000
+; Defines the maximum number of tags/bookmarks to retrieve and paint on the timeline if user explicitly selected a range via timeline's context menu (overload protection).
+;TimelineTagsLimitHard=2000000
+
+[AudioOptions]
+PlayAssociatedAudioAsDefault=true
+
+
+[AlarmHandlingOptions]
+ShowAcceptedAlarms=true
+ShowAlarmQueueAsTable=false
+#PreferedAlarmQueueVideo=.*(cabc1f).*
+
+[AlarmFinishedMetaData]
+FinishedMetaData#1=Fire alarm
+FinishedMetaData#2=Call from terminal
+FinishedMetaData#3=Emergency call to terminal
+FinishedMetaData#4=Intruder alarm
+FinishedMetaData#5=Smoke detector
+FinishedMetaData#6=Motion detector
+FinishedMetaData#7=Vandalism
+FinishedMetaData#8=Theft
+FinishedMetaData#9=False alarm
+FinishedMetaData#10=Suspicious scene
+#max. 10
+#- DE -
+FinishedMetaData.de#1=Feueralarm
+FinishedMetaData.de#2=Anruf von Sprechstelle
+FinishedMetaData.de#3=Notruf an Sprechstelle
+FinishedMetaData.de#4=Einbruchmelder
+FinishedMetaData.de#5=Rauchmelder
+FinishedMetaData.de#6=Bewegungsalarm
+FinishedMetaData.de#7=Vandalismus
+FinishedMetaData.de#8=Diebstahl
+FinishedMetaData.de#9=Falschalarm
+FinishedMetaData.de#10=verdächtige Szene
+#max. 10
+
+[AlarmQueueReInsertMetaData]
+ReInsertMetaData#1=Not responsible
+ReInsertMetaData#2=Major alarm first
+ReInsertMetaData#3=Busy
+ReInsertMetaData#4=End of shift
+#max. 10
+#- DE -
+ReInsertMetaData.de#1=Nicht zuständig
+ReInsertMetaData.de#2=Wichtiger Alarm zuerst
+ReInsertMetaData.de#3=Beschäftigt
+ReInsertMetaData.de#4=Schichtende
+#max. 10
+
+[VideoBookmarks]
+VideoBookmarks#1=Important scene
+VideoBookmarks#2=Accident
+VideoBookmarks#3=Robbery
+VideoBookmarks#4=License plate
+VideoBookmarks#5=Face
+VideoBookmarks#6=Car
+#VideoBookmarks#7=Reason #7
+#VideoBookmarks#8=Reason #8
+#VideoBookmarks#9=Reason #9
+#VideoBookmarks#10=Reason #10
+#max. 10
+#- DE -
+VideoBookmarks.de#1=Wichtige Szene
+VideoBookmarks.de#2=Unfall
+VideoBookmarks.de#3=Überfall
+VideoBookmarks.de#4=Nummernschild
+VideoBookmarks.de#5=Gesicht
+VideoBookmarks.de#6=Auto
+#VideoBookmarks.de#7=Textmarke #7
+#VideoBookmarks.de#8=Textmarke #8
+#VideoBookmarks.de#9=Textmarke #9
+#VideoBookmarks.de#10=Textmarke #10
+#max. 10
+
+[ReportingRequests]
+#today and yesterday per default
+LastDays#1=2
+LastDays#2=5
+LastDays#3=7
+#max 10 entries
+
+[ReasonsForDeletingStreamProtections]
+Reason#1=Process concluded
+Reason#2=Storage not required
+Reason#3=Storage not desired
+Reason#4=Recording not usable
+Reason#5=Data deletion requested
+Reason#6=Data deletion requested by process
+Reason#7=Data has been exported
+#Reason#8=Reason #8
+#Reason#9=Reason #9
+#Reason#10=Reason #10
+#max. 10
+#- DE -
+Reason.de#1=Vorgang abgeschlossen
+Reason.de#2=Aufbewahrung nicht mehr erforderlich
+Reason.de#3=Aufbewahrung nicht mehr gewünscht
+Reason.de#4=Aufzeichnung nicht brauchbar
+Reason.de#5=Datenlöschung wurde verlangt
+Reason.de#6=Datenlöschung lt. Prozess erforderlich
+Reason.de#7=Daten exportiert
+#Reason.de#8=Reason #8
+#Reason.de#9=Reason #9
+#Reason.de#10=Reason #10
+#max. 10
+
+[OverloadWatchdog]
+; Interval, in seconds, for logging of latencies if above the LatencyLogAboveLatencyMsec value
+; (0 to disable OverloadWatchdog entirely!).
+;LatencyLogIntervalSec=5
+; Threshold, in milliseconds, for logging of latencies. Log output occurs if any latency is above this value.
+;LatencyLogAboveLatencyMsec=2000
+; Threshold, in milliseconds, for showing a message box. The message box is shown if any latency is above this value.
+;LatencyShowMsgBoxAboveLatencyMsec=20000
+; Interval, in seconds, at which the message box is raised again after being closed by the user, or the
+; message box is kept shown after the latencies have dropped below the threshold.
+;LatencyMsgBoxIntervalSec=30
+; Period of time, in seconds, over which latency min/max values are determined before being reset.
+;LatencyMinMaxPeriodSec=180
+; Number of latency values used to compute median latency values.
+; A small value causes fast, a large value causes slow adoption of the current latency
+; (rapidly changing vs. stable values).
+;LatencyHistoryDepth=13
+
+[ExportCameraReportDialog/Variables]
+; Syntax: <placeholder name>="<text>","<operator>"[,"<menutext>"][,"<menutags>"]
+;   <placeholder name> is the name of the placeholder that may be used in
+;     texts (ex.: "My name is <name>.", if <placeholder name> was "name").
+;   <text> is the text replacing the placeholder, or if <operator> is not empty,
+;     the text from which the operator derives the text that replaces the placeholder.
+;   <operator> is an optional operator deriving the text, that replaces the
+;     placeholder, from <text>.
+;   <menutext> is the menu text representing the variable (empty text to hide).
+;   <tags> is a comma-separated list of tags indicating for which purposes the variable
+;     should be available. Supported tags: "streams"
+; Supported operators:
+;   "regex:..." where ... is a regular expression matched on <text>, where the
+;     placeholder is replaced with the last capture group. Use (?:) to suppress
+;     capturing for a group.
+;     Example: "regex:(\\w+) \\w+" yields "John" if <text> was "John Doe".
+;   "dateime:..." where ... is a QDateTime format string for getting
+;     current date/time as text. If <text> is "utc", universal time is used instead
+;     of local time.
+;     Example: "datetime::yyyy-MM-dd" yields 2022-12-31, for instance.
+; WARNINGS:
+;    1) double the backslashes in the regex! (use \\d instead of \d)
+;    2) always enclose <text> and <operator> in quotes.
+; 
+; utcdate="utc","datetime:yyyy-MM-dd", "Date (UTC)"
+; utcts="utc","datetime:yyyyMMddThhmmss", "Timestamp (UTC)"
+; Kameranummer_short="<streamid>","regex:cam(\\d+)", ""
+; Kameranummer="0000<Kameranummer_short>","regex:.*(\\d{4,})$", "Kameranummer (4-stellig)", "streams"

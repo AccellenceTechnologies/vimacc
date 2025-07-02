@@ -1,0 +1,73 @@
+services:
+  vimacc:
+    image: vimaccdebian11
+    container_name: vimacc-vms
+    build: 
+      context: ./build
+      args: 
+        # reserved for future use
+        - PRODUCT=vimacc
+        # true -> gui interface with vnc on port 5901 or false -> no gui nterface
+        - GUI=true
+      dockerfile: vimacc.Dockerfile
+    ports:
+      # Export the vnc GUI port
+      - "5901:5901"
+      # Expose HOST PORTS with reference to ENV variable or placeholder comment
+      - "4225:4225"   # VIMACC_REPORTCLIENT_SERVERPORT
+      - "9360:9360"   # VIMACC_CONFIG_PROXY_SERVER_PORT
+      - "9365:9365"   # VIMACC_CONFIG_SLAVE_SERVER_PORT
+      - "9370:9370"   # VIMACC_CONFIG_SERVER_PORT, VIMACC_CONFIG_CLIENT_SERVER1_PORT, VIMACC_CONFIG_CLIENT_SERVER2_PORT
+      - "9371:9371"   # VIMACC_PLAYBACK_OPERATORPORT
+      - "9372:9372"   # VIMACC_PLAYBACK_DATACONNECTIONPORT
+      - "9375:9375"   # VIMACC_INTERFACE_OPERATORPORT
+      - "9376:9376"   # VIMACC_INTERFACE_DATACONNECTIONPORT
+      - "9729:9729"   # vimacc Dataport for access/deploy of databases, like features, system configuration, etc.
+      - "9731:9731"   # VIMACC_PLAYBACK_PROXY_OPERATORPORT
+      - "9732:9732"   # VIMACC_PLAYBACK_PROXY_DATACONNECTIONPORT
+      - "9735:9735"   # VIMACC_INTERFACE_PROXY_OPERATORPORT
+      - "9736:9736"   # VIMACC_INTERFACE_PROXY_DATACONNECTIONPORT
+
+    hostname: vimacc-srv01
+    environment:
+       # The name defined here, will be used by any vimacc service as published hostaddress
+       # and will be used as the controller name for device assignment.
+       # HINT: This name needs to be resolvable by any other vimacc hosts, ponting to the Docker Host.
+      - VIMACC_HOSTNAME=vimacc-srv01
+       # The following values can be used for VIMACC_CONFIG_CLIENT_TYPE (default: config):
+       #  - config -> working directly with the central AccVimaccConfig: using SERVER1 (default localhost) and SERVER2 (empty value allowed when no redundancy is used)
+       #  - proxy  -> all vimacc services within this container will be configured to use the local AccVimaccConfigProxy (for connection reduction to central server)
+       #  - slave  -> all vimacc services within this container will be configured to use the local AccVimaccConfigSlave
+       #              AccVimaccConfigSlave & AccVimaccRoot will be configured for full local failover functionality
+       #
+       #  HINT: When using proxy/slave for SERVER1 & SERVER2 the adresses of central AccVimaccConfig(s) are required.
+      - VIMACC_CONFIG_CLIENT_SERVERTYPE=config
+      - VIMACC_CONFIG_CLIENT_SERVER1_HOST=vimacc-srv01
+      - VIMACC_CONFIG_CLIENT_SERVER1_PORT=9370
+      - VIMACC_CONFIG_CLIENT_SERVER2_HOST=
+      - VIMACC_CONFIG_CLIENT_SERVER2_PORT=9370
+       # This port is used by AccVimaccConfig/Proxy/Slave process(es) within the container as there own server port
+      - VIMACC_CONFIG_SERVER_PORT=9370
+      - VIMACC_CONFIG_SLAVE_SERVER_PORT=9365
+      - VIMACC_CONFIG_PROXY_SERVER_PORT=9360
+      - VIMACC_REPORTCLIENT_SERVERPORT=4225
+      - VIMACC_INTERFACE_OPERATORPORT=9375
+      - VIMACC_INTERFACE_DATACONNECTIONPORT=9376
+      - VIMACC_INTERFACE_PROXY_OPERATORPORT=9735
+      - VIMACC_INTERFACE_PROXY_DATACONNECTIONPORT=9736
+      - VIMACC_PLAYBACK_OPERATORPORT=9371
+      - VIMACC_PLAYBACK_DATACONNECTIONPORT=9372
+      - VIMACC_PLAYBACK_PROXY_OPERATORPORT=9731
+      - VIMACC_PLAYBACK_PROXY_DATACONNECTIONPORT=9732
+       # PAYLOADMTUSIZE defines the payloading, when vimacc is generating streams
+       # This does not affect live streams from video/audio sources - MAKE sure to configure them in the streaming source (e.g. camera)
+       # Default: 1500, example value for VPN/LTE infrastructures: 1350, Cisco Anyconnect: 1406
+      - VIMACC_STREAMING_OPTIONS_PAYLOADMTUSIZE=1500
+      - VIMACC_STREAMING_OPTIONS_DEJITTERDELAY=50
+      - VIMACC_LOGGING_DEFAULT=Fatal,Critical,Warning,Info
+       # Following settings are only relevant, if "GUI=true"
+      - VIMACC_GUI_VIDEORENDERER=software
+      - VIMACC_GUI_AUTOLOGOUT_INACTIVITYSECS=0
+      - VIMACC_GUI_AUTOLOGOUT_WARNSECS=20
+      - VIMACC_GUI_SHOWALLLIVESTREAMS=false
+

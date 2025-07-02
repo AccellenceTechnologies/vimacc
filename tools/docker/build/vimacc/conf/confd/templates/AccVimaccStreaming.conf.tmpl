@@ -1,0 +1,16 @@
+[StreamingOptions]
+; Default: 1500, example value for VPN/LTE infrastructures: 1350, Cisco Anyconnect: 1406
+PayloadMTUSize={{ getv "/vimacc/streaming/options/payloadmtusize" }}
+DejitterDelay={{ getv "/vimacc/streaming/options/dejitterdelay" }}
+
+
+[RtpReordering]
+; default is 5000
+Live/maxNumOfPacketsBuffered=5000
+; Default is 2. You need at least 2 frames in order to catch disorders accross frame boundaries.
+Live/maxNumOfFramesBuffered=2;
+
+; default is 5000
+Recording/maxNumOfPacketsBuffered=5000
+; Default is 4. You need at least 2 frames in order to catch disorders accross frame boundaries.
+Recording/maxNumOfFramesBuffered=4;

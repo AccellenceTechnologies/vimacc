@@ -1,0 +1,22 @@
+[RECORD]
+Enable=1
+MaxMinutesPerFile=5
+
+; Default = true
+MaintainOrphanedRecordRing=true
+; Default = 15
+MaintainOrphanedRecordRingAfterMinutes=15
+
+[PLAYBACK]
+#DisableFileSystemCache=false <== Experimental
+EnableTimelinePrecaching=false
+LogWarningTimelinePerf=false
+
+[Logging]
+Level={{ getv "/vimacc/logging/default" }}
+#Show=<regular expression>
+#Hide=<regular expression>
+
+[DeviceManager]
+OperatorTCPPort={{ getv "/vimacc/playback/operatorport" }}
+DataConnectionTCPPort={{ getv "/vimacc/playback/dataconnectionport" }}

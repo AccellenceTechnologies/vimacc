@@ -1,0 +1,7 @@
+[template]
+src = "AccVimaccStreaming.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccStreaming.conf"
+keys = [
+    "vimacc/streaming/options/payloadmtusize",
+    "vimacc/streaming/options/dejitterdelay"
+]

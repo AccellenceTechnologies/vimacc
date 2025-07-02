@@ -1,0 +1,70 @@
+{{- $server1 := getv "/vimacc/config/client/server1/host" }}
+{{- $server2 := getv "/vimacc/config/client/server2/host" }}
+[General]
+;StopConfigOnOutdatedDBVersion=true
+;VimaccServices=AccVimaccConfig, AccVimaccInterface
+
+[Logging]
+Level={{ getv "/vimacc/logging/default" }}
+
+[DatabaseReplication]
+; Use one mode of:  none | auto | notify_pull
+; "auto" does nothing if server list is empty, else it behaves like "notify_pull".
+; "notify_pull" monitors CONFIG database versions on defined servers and whenever
+;               the highest version provided by these servers differs from the
+;               local version, it pulls that database (even a lower version).
+Mode=auto
+{{- if ne $server2 "" }}
+ServerList={{ $server1 }}, {{ $server2 }}
+{{- else }}
+ServerList={{ $server1 }}
+{{- end }}
+
+
+[FeaturesDatabaseReplication]
+; Use one mode of:  none | auto | notify_pull
+; "auto" does nothing if server list is empty, else it behaves like "notify_pull".
+; "notify_pull" monitors FEATURES database versions on defined servers and whenever
+;               the highest version provided by these servers differs from the
+;               local version, it pulls that database (even a lower version).
+Mode=auto
+{{- if ne $server2 "" }}
+ServerList={{ $server1 }}, {{ $server2 }}
+{{- else }}
+ServerList={{ $server1 }}
+{{- end }}
+
+
+[FeaturesDatabase]
+; Maximum number of days to keep database backups in the
+; "vimacc\data\featuresDatabase\backups" folder.
+; For this number of days in the past the most recent <MaxBakPerDay> number of
+; database backups, created during each day, are saved.
+;MaxBakDays=30
+
+; Maximum number of database backups to keep per day, except current day.
+; If <MaxBakTodayPerHour> is >= 1, the most recent backups created during a
+; day are saved.
+;MaxBakPerDay=1
+
+; Number of database backups to keep per hour during the current day.
+; If zero, the current day is treated like every other day in the past (only
+; save <MaxBakPerDay> backups).
+;MaxBakTodayPerHour=1
+
+
+[FeatureListProxy]
+; Comma-separated list of host names to cache FeatureList config branch for
+; to be published in RCL redundancy state, if absent or inconsistent.
+;
+{{- if ne $server2 "" }}
+HostNameList={{ $server1 }}, {{ $server2 }}
+{{- else }}
+HostNameList={{ $server1 }}
+{{- end }}
+
+[FeatureListEncoding]
+; Value encoding: true: Base64url with optional compression, false for legacy hex encoding (1 byte -> 2 chars).
+;Base64=true
+; Value compression level: 0: none, 1..2: lz4Fast, 3..12: lz4HC
+;CompressionLevel=3

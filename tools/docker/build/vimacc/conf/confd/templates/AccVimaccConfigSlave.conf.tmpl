@@ -1,0 +1,43 @@
+{{- $server1 := getv "/vimacc/config/client/server1/host" }}
+{{- $server2 := getv "/vimacc/config/client/server2/host" }}
+[Database]
+dbType=VCCDBF
+
+[ConfigServer]
+; Server port of ConfigSlave. Specify this port in ConfigClient/Server1 setting
+; in AccVimaccConfig.conf to make clients use this instance of AccVimaccConfigSlave!
+Port={{ getv "/vimacc/config/slave/server/port" }}
+SupportLegacyQStringProt=false
+ContentUpdateCompressLevel=1
+
+[ConfigClient]
+; Host and port of AccVimaccConfig (upstream config) to which ConfigSlave
+; should connect to. If this connection fails, ConfigSlave enters local mode.
+Server1={{ $server1 }} {{ getv "/vimacc/config/client/server1/port" }}
+{{- if ne $server2 "" }}
+Server2={{ $server2 }} {{ getv "/vimacc/config/client/server2/port" }}
+{{- end }}
+
+; @ANY subscribes us to everything. This is the default setting.
+;SegmentationSubscriptionTags="@ANY"
+
+; You can set SegmentationSubscriptionTags to an empty list
+;SegmentationSubscriptionTags=
+
+; Subscription example for the Tags T1 and T2.
+;SegmentationSubscriptionTags=T1,T2
+
+; Subscription example for the Tag "CMS", which is the product setup default
+SegmentationSubscriptionTags=CMS
+
+; Example for tags, which will be written to any new ConfigValue
+;SegmentationDefaultWriteTags=T1,T2
+
+[Bridge]
+ServerPort=0
+;ServerPort=7001
+;ServerHost=localhost
+;IAmServer=true
+
+[Logging]
+Level={{ getv "/vimacc/logging/default" }}

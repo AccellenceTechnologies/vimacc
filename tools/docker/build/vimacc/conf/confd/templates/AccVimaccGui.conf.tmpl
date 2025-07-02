@@ -1,0 +1,29 @@
+[General]
+; Use one of auto | desktop | angle | software (default is auto).
+GLRenderer=angle
+
+; Use one of opengl | ddraw | software | ddraw_auto (default is opengl).
+; With VideoRenderer=opengl the GLRenderer above will be used.
+; ddraw_auto will automatically choose between ddraw and software.
+;
+; If you do not have any video hardware accellaration at all you can go with:
+; GLRenderer=software
+; VideoRenderer=software
+VideoRenderer={{ getv "/vimacc/gui/videorenderer" }}
+
+
+; Auto-Logout Settings
+;
+; Timeout without any user interaction before Auto-Logout starts, with a countdown warning dialog.
+; The value will be defined in Secs. / values smaller 60 (1 minute) disables this feature
+;InactivityTimeoutBeforeLogout=300
+InactivityTimeoutBeforeLogout={{ getv "/vimacc/gui/autologout/inactivitysecs" }}
+;
+; After the timeout for user interaction defined before a warning dialog will be disabled to the
+; user, with a countdown before Auto-Logout will be processed. Within this timeout the user can cancel
+; the Auto-Logout or acknowledle it directly. The timeout in the dialog can defined here, in MSecs.
+AutoLogoutWarnTimeout={{ getv "/vimacc/gui/autologout/warnsecs" }}
+
+; Enable to show all live streams of a camera in the device trees or
+; disable to show only the designated live channel defined in configuration (default: false).
+ShowAllLiveStreams={{ getv "/vimacc/gui/showalllivestreams" }}

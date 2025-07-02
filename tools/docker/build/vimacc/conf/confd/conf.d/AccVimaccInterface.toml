@@ -1,0 +1,8 @@
+[template]
+src = "AccVimaccInterface.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccInterface.conf"
+keys = [
+    "vimacc/logging/default",
+    "vimacc/interface/operatorport",
+    "vimacc/interface/dataconnectionport"
+]

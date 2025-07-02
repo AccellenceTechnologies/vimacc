@@ -1,0 +1,6 @@
+[template]
+src = "AccVimaccAdminCenter.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccAdminCenter.conf"
+keys = [
+    "vimacc/logging/default"
+]

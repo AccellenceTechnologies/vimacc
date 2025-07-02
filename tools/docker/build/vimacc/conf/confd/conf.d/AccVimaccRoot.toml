@@ -1,0 +1,8 @@
+[template]
+src = "AccVimaccRoot.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccRoot.conf"
+keys = [
+    "vimacc/logging/default",
+    "vimacc/config/client/server1/host",
+    "vimacc/config/client/server2/host"
+]

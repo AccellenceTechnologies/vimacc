@@ -1,0 +1,61 @@
+{{- $host := getv "/vimacc/hostname" }}
+{{- $server1 := getv "/vimacc/config/client/server1/host" }}
+{{- $server2 := getv "/vimacc/config/client/server2/host" }}
+{{- $servertype := getv "/vimacc/config/client/servertype" }}
+[Database]
+dbType=VCCDBF
+
+[DeviceManager]
+MyHostName={{ $host }}
+
+[ConfigServer]
+Port={{ getv "/vimacc/config/server/port" }}
+SupportLegacyQStringProt=false
+ContentUpdateCompressLevel=1
+{{- if eq $servertype "slave" }}
+{{- if ne $server2 "" }}
+AllowedFeatureProviders="{{ $server1 }},{{ $server2 }},{{ $host }}"
+{{- else }}
+AllowedFeatureProviders="{{ $server1 }},{{ $host }}"
+{{- end }}
+{{- end }}
+
+[ConfigClient]
+; The following values can be used for ServerType (default: config):
+; config -> the well known normal ConfigServer: Server1 and Server2 address both a normal ConfigServer
+; [slave|proxy] -> Server1 and Server2 address both a ConfigSlave or a ConfigProxy (for the time being at least,
+; both "proxy" and/or "slave" can be used here interchangeably, slave and proxy use the same protocol).
+ServerType={{ $servertype }}
+; Host and port of AccVimaccConfig to which all Clients should connect to.
+; If using a ConfigSlave, enter the information from section [ConfigServer] from AccVimaccConfigSlave.conf here
+; OR
+; if using a ConfigProxy, enter the information from section [ConfigServer] from AccVimaccConfigSlave.conf here.
+{{- if eq $servertype "config" }}
+Server1={{ $server1 }} {{ getv "/vimacc/config/client/server1/port" }}
+{{- if ne $server2 "" }}
+Server2={{ $server2 }} {{ getv "/vimacc/config/client/server2/port" }}
+{{- end }}
+{{- else if eq $servertype "slave" }}
+Server1=localhost {{ getv "/vimacc/config/slave/server/port" }}
+{{- else if eq $servertype "proxy" }}
+Server1=localhost {{ getv "/vimacc/config/proxy/server/port" }}
+{{- end }}
+
+; Tags, which will be written to any new ConfigValue (here for the Central Services)
+SegmentationDefaultWriteTags=CMS
+
+[Bridge]
+{{- if or (eq $server2 "") (and (ne $host $server1) (ne $host $server2)) }}
+ServerPort=0
+{{- else if eq $host $server1 }}
+ServerPort=7000
+ServerHost={{ $server2 }}
+IAmServer=true
+{{- else if eq $host $server2 }}
+ServerPort=7000
+ServerHost={{ $server1 }}
+IAmServer=false
+{{- end }}
+
+[Logging]
+Level={{ getv "/vimacc/logging/default" }}

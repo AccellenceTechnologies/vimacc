@@ -1,0 +1,11 @@
+[template]
+src = "AccVimaccConfigProxy.conf.tmpl"
+dest = "/opt/Accellence/vimacc/etc/AccVimaccConfigProxy.conf"
+keys = [
+    "vimacc/logging/default",
+    "vimacc/config/proxy/server/port",
+    "vimacc/config/client/server1/host",
+    "vimacc/config/client/server1/port",
+    "vimacc/config/client/server2/host",
+    "vimacc/config/client/server2/port"
+]
