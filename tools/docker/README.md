@@ -29,18 +29,6 @@ docker compose up -d
 > 🗂 Make sure the `.deb` package is present at `tools/docker/build/vimacc/deb/`, otherwise the image will not contain the vimacc software.
 
 
-```bash
-# Clone the repository
-git clone https://github.com/AccellenceTechnologies/vimacc.git
-cd vimacc/tools/docker
-
-# Build the container image
-docker compose build
-
-# Run the container
-docker compose up -d
-```
-
 The container starts with the default configuration and exposes all required vimacc ports.
 
 ---
