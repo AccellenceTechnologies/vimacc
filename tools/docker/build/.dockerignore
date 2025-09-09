@@ -1,0 +1,7 @@
+**/.git
+**/.DS_Store
+**/__pycache__/
+**/*.swp
+**/.env
+../run/
+${PRODUCT}/deb/PLACE_VIMACC_DEB_FILE_HERE

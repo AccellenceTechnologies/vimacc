@@ -35,7 +35,7 @@ The container starts with the default configuration and exposes all required vim
 
 ## 🧰 Features
 
-- Based on Debian 11
+- Based on Debian 12
 - GUI support via VNC (port 5901)
 - Built-in confd templating system
 - Environment-variable-driven service configuration
@@ -143,7 +143,7 @@ Main start scripts:
 
 ## 📦 Built With
 
-- Debian 11
+- Debian 12
 - `confd` v0.16.0
 - `openssl` 3.0.8
 - `xfce4` (GUI environment, optional)

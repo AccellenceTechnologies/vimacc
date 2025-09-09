@@ -1,15 +1,28 @@
 services:
   vimacc:
-    image: vimaccdebian11
-    container_name: vimacc-vms
-    build: 
+    image: vimaccvms:latest
+    container_name: vimaccvms
+    restart: unless-stopped
+    stop_signal: SIGTERM
+    stop_grace_period: 90s
+    volumes:
+      - ./run/vimacc/etc:/opt/Accellence/vimacc/etc
+      - ./run/vimacc/data:/opt/Accellence/vimacc/data
+      - ./run/vimacc/logs:/opt/Accellence/vimacc/log
+    build:
       context: ./build
-      args: 
-        # reserved for future use
-        - PRODUCT=vimacc
-        # true -> gui interface with vnc on port 5901 or false -> no gui nterface
-        - GUI=true
+      target: runtime
+      args:
+        PRODUCT: "vimacc"    # reserved for future use
+        GUI: "true"          # true -> gui interface with TigerVNC on port 5901 or false -> no gui interface
       dockerfile: vimacc.Dockerfile
+    # TCP healthcheck on 9729
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/127.0.0.1/9729'"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
     ports:
       # Export the vnc GUI port
       - "5901:5901"
@@ -64,8 +77,9 @@ services:
        # Default: 1500, example value for VPN/LTE infrastructures: 1350, Cisco Anyconnect: 1406
       - VIMACC_STREAMING_OPTIONS_PAYLOADMTUSIZE=1500
       - VIMACC_STREAMING_OPTIONS_DEJITTERDELAY=50
-      - VIMACC_LOGGING_DEFAULT=Fatal,Critical,Warning,Info
+      - VIMACC_LOGGING_DEFAULT=Fatal,Critical,Warning,Info,Debug
        # Following settings are only relevant, if "GUI=true"
+      - RESOLUTION=1600x900
       - VIMACC_GUI_VIDEORENDERER=software
       - VIMACC_GUI_AUTOLOGOUT_INACTIVITYSECS=0
       - VIMACC_GUI_AUTOLOGOUT_WARNSECS=20
