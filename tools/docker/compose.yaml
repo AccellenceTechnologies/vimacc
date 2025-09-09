@@ -77,7 +77,7 @@ services:
        # Default: 1500, example value for VPN/LTE infrastructures: 1350, Cisco Anyconnect: 1406
       - VIMACC_STREAMING_OPTIONS_PAYLOADMTUSIZE=1500
       - VIMACC_STREAMING_OPTIONS_DEJITTERDELAY=50
-      - VIMACC_LOGGING_DEFAULT=Fatal,Critical,Warning,Info,Debug
+      - VIMACC_LOGGING_DEFAULT=Fatal,Critical,Warning,Info
        # Following settings are only relevant, if "GUI=true"
       - RESOLUTION=1600x900
       - VIMACC_GUI_VIDEORENDERER=software
