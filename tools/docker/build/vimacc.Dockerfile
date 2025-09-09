@@ -131,8 +131,8 @@ LABEL org.opencontainers.image.licenses="MIT"
 #       args:
 #         PRODUCT: "vimacc"
 #         GUI: "false"             # set to "true" to include GUI + TigerVNC
-#     image: accellence/vimacc:debian12
-#     container_name: vimacc-server
+#     image: vimaccvms:latest
+#     container_name: vimacc_enterprise
 #     restart: unless-stopped
 #     volumes:
 #       - ./vimacc-server/vimacc/etc:/opt/Accellence/vimacc/etc
