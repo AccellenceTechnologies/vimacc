@@ -22,7 +22,7 @@ services:
       interval: 30s
       timeout: 5s
       retries: 5
-      start_period: 40s
+      start_period: 90s
     ports:
       # Export the vnc GUI port
       - "5901:5901"
@@ -40,7 +40,9 @@ services:
       - "9732:9732"   # VIMACC_PLAYBACK_PROXY_DATACONNECTIONPORT
       - "9735:9735"   # VIMACC_INTERFACE_PROXY_OPERATORPORT
       - "9736:9736"   # VIMACC_INTERFACE_PROXY_DATACONNECTIONPORT
-
+    extra_hosts:
+       # Add any vimacc interface/server hosts here
+      - "vimacc-dokcerhost:host-gateway" # entry for docker host itself, e.g. if docker containeras are used for scaling
     hostname: vimacc-srv01
     environment:
        # The name defined here, will be used by any vimacc service as published hostaddress
