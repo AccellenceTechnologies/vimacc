@@ -7,6 +7,10 @@
 [Logging]
 Level={{ getv "/vimacc/logging/default" }}
 
+
+[Database]
+UpdatePort={{ getv "/vimacc/database/port" }}
+
 [DatabaseReplication]
 ; Use one mode of:  none | auto | notify_pull
 ; "auto" does nothing if server list is empty, else it behaves like "notify_pull".

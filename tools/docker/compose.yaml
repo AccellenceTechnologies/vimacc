@@ -14,9 +14,9 @@ services:
       target: runtime
       args:
         PRODUCT: "vimacc"    # reserved for future use
-        GUI: "true"          # true -> gui interface with TigerVNC on port 5901 or false -> no gui interface
+        GUI: "false"         # true -> gui interface with TigerVNC on port 5901 or false -> no gui interface
       dockerfile: vimacc.Dockerfile
-    # TCP healthcheck on 9729
+    # TCP healthcheck on Database port
     healthcheck:
       test: ["CMD-SHELL", "bash -c '</dev/tcp/127.0.0.1/9729'"]
       interval: 30s
@@ -28,6 +28,7 @@ services:
       - "5901:5901"
       # Expose HOST PORTS with reference to ENV variable or placeholder comment
       - "4225:4225"   # VIMACC_REPORTCLIENT_SERVERPORT
+      - "9636:9636"   # VIMACC_REPORTMONITOR_SERVERPORT
       - "9360:9360"   # VIMACC_CONFIG_PROXY_SERVER_PORT
       - "9365:9365"   # VIMACC_CONFIG_SLAVE_SERVER_PORT
       - "9370:9370"   # VIMACC_CONFIG_SERVER_PORT, VIMACC_CONFIG_CLIENT_SERVER1_PORT, VIMACC_CONFIG_CLIENT_SERVER2_PORT
@@ -35,14 +36,14 @@ services:
       - "9372:9372"   # VIMACC_PLAYBACK_DATACONNECTIONPORT
       - "9375:9375"   # VIMACC_INTERFACE_OPERATORPORT
       - "9376:9376"   # VIMACC_INTERFACE_DATACONNECTIONPORT
-      - "9729:9729"   # vimacc Dataport for access/deploy of databases, like features, system configuration, etc.
+      - "9729:9729"   # VIMACC_DATABASE_PORT
       - "9731:9731"   # VIMACC_PLAYBACK_PROXY_OPERATORPORT
       - "9732:9732"   # VIMACC_PLAYBACK_PROXY_DATACONNECTIONPORT
       - "9735:9735"   # VIMACC_INTERFACE_PROXY_OPERATORPORT
       - "9736:9736"   # VIMACC_INTERFACE_PROXY_DATACONNECTIONPORT
     extra_hosts:
        # Add any vimacc interface/server hosts here
-      - "vimacc-dokcerhost:host-gateway" # entry for docker host itself, e.g. if docker containeras are used for scaling
+      - "vimacc-dockerhost:host-gateway" # entry for docker host itself, e.g. if docker containeras are used for scaling
     hostname: vimacc-srv01
     environment:
        # The name defined here, will be used by any vimacc service as published hostaddress
@@ -65,7 +66,10 @@ services:
       - VIMACC_CONFIG_SERVER_PORT=9370
       - VIMACC_CONFIG_SLAVE_SERVER_PORT=9365
       - VIMACC_CONFIG_PROXY_SERVER_PORT=9360
+      - VIMACC_DATABASE_PORT=9729
+      - VIMACC_REPORTCLIENT_SINKPORT=4224 #local only
       - VIMACC_REPORTCLIENT_SERVERPORT=4225
+      - VIMACC_REPORTMONITOR_SERVERPORT=9636
       - VIMACC_INTERFACE_OPERATORPORT=9375
       - VIMACC_INTERFACE_DATACONNECTIONPORT=9376
       - VIMACC_INTERFACE_PROXY_OPERATORPORT=9735
@@ -83,7 +87,7 @@ services:
        # Following settings are only relevant, if "GUI=true"
       - RESOLUTION=1600x900
       - VIMACC_GUI_VIDEORENDERER=software
-      - VIMACC_GUI_AUTOLOGOUT_INACTIVITYSECS=0
+      - VIMACC_GUI_AUTOLOGOUT_INACTIVITYSECS=120
       - VIMACC_GUI_AUTOLOGOUT_WARNSECS=20
-      - VIMACC_GUI_SHOWALLLIVESTREAMS=false
+      - VIMACC_GUI_SHOWALLLIVESTREAMS=true
 
