@@ -3,6 +3,4 @@ src = "AccVimaccPlaybackProxy.conf.tmpl"
 dest = "/opt/Accellence/vimacc/etc/AccVimaccPlaybackProxy.conf"
 keys = [
     "vimacc/logging/default",
-    "vimacc/playback/proxy/operatorport",
-    "vimacc/playback/proxy/dataconnectionport"
 ]
