@@ -59,6 +59,7 @@ RUN mkdir -p \
 # --- Install local .deb packages shipped with the product
 # Use a single apt invocation and clean afterward to keep layers small.
 COPY ./${PRODUCT}/deb/*.deb /tmp/deb/
+ENV AM_I_IN_A_DOCKER_CONTAINER=yes
 RUN set -eux; \
   apt-get update; \
   if ls /tmp/deb/*.deb >/dev/null 2>&1; then apt-get install -y /tmp/deb/*.deb; fi; \
