@@ -2,7 +2,7 @@
 
 This repository provides the official Docker setup for **vimacc**, a powerful and modular video management system (VMS) developed by Accellence Technologies GmbH.
 
-- ✅ Run vimacc on Debian 11 in a containerized environment
+- ✅ Run vimacc on Debian 12 in a containerized environment
 - ✅ Configure your instance dynamically via environment variables
 - ✅ Optional GUI support (via VNC)
 
