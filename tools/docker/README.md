@@ -26,7 +26,7 @@ docker compose build
 docker compose up -d
 ```
 
-> 🗂 Make sure the `.deb` package is present at `tools/docker/build/vimacc/deb/`, otherwise the image will not contain the vimacc software.
+> 🗂 Make sure the Debian 12 `.deb` package is present at `tools/docker/build/vimacc/deb/`, otherwise the image will not contain the vimacc software.
 
 
 The container starts with the default configuration and exposes all required vimacc ports.

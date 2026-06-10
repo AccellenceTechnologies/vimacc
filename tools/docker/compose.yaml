@@ -27,6 +27,7 @@ services:
       # Export the vnc GUI port
       - "5901:5901"
       # Expose HOST PORTS with reference to ENV variable or placeholder comment
+      - "4224:4224"   # VIMACC_REPORTCLIENT_SINKPORT
       - "4225:4225"   # VIMACC_REPORTCLIENT_SERVERPORT
       - "9636:9636"   # VIMACC_REPORTMONITOR_SERVERPORT
       - "9360:9360"   # VIMACC_CONFIG_PROXY_SERVER_PORT
@@ -90,4 +91,5 @@ services:
       - VIMACC_GUI_AUTOLOGOUT_INACTIVITYSECS=120
       - VIMACC_GUI_AUTOLOGOUT_WARNSECS=20
       - VIMACC_GUI_SHOWALLLIVESTREAMS=true
+      - AM_I_IN_A_DOCKER_CONTAINER=yes
 
