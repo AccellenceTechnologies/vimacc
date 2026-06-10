@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:203713e1-3fde-4c4e-acdf-0b60d56b8d9b",
+  "serialNumber": "urn:uuid:4f446007-0663-4c5d-abed-9c1ba999764c",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-05-22T06:13:28Z",
+    "timestamp": "2026-05-26T16:30:36Z",
     "tools": {
       "components": [
         {
@@ -114,7 +114,7 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "urn:uuid:84dff0c0-9c17-4b89-bd66-5e36d14ab439",
+      "bom-ref": "urn:uuid:c1eef8b0-7828-4a9d-8c3b-89ff31ca306d",
       "name": "vimacc",
       "properties": [
         {
@@ -220,7 +220,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:f6ab3bd0-e2d8-4791-acd0-01ff7d2f610e",
+      "bom-ref": "urn:uuid:82be1c3a-e10f-41d2-a546-1d18fbaca19a",
       "name": "QT framework",
       "properties": [
         {
@@ -337,7 +337,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:d6610883-d4f4-4814-8db7-4ecd7d8cd829",
+      "bom-ref": "urn:uuid:be1702a5-b21a-432e-97a2-8eea18f27646",
       "name": "Qt Solutions Component",
       "properties": [
         {
@@ -454,7 +454,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:99b7dafc-97fe-4d69-b66d-14f6386ff51a",
+      "bom-ref": "urn:uuid:d4d17c47-a683-4187-879b-4a9f841e6541",
       "name": "Qt Simple Browser",
       "properties": [
         {
@@ -572,7 +572,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:4d7f0aba-855a-45cf-89fc-086239b2b174",
+      "bom-ref": "urn:uuid:b245d446-c0dc-48e2-971e-af492e3b3af2",
       "name": "OpenSSL",
       "properties": [
         {
@@ -689,7 +689,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:a91be571-bfed-448e-8fbd-a94ee46176c3",
+      "bom-ref": "urn:uuid:ffb0b2d4-6920-433f-919f-132b1f0dbb17",
       "name": "SQLite",
       "properties": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:7ae672b1-7221-49a6-ad72-e56eedd3042a",
+      "bom-ref": "urn:uuid:8afc3e39-26da-4d37-aaec-0ff8c0375214",
       "name": "FFmpeg",
       "properties": [
         {
@@ -925,7 +925,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:de974c1b-fbf1-44b0-8ce5-6aefd30b86c4",
+      "bom-ref": "urn:uuid:800b31c8-e252-4347-99c0-8fea55dd6a38",
       "name": "IJG",
       "properties": [
         {
@@ -1042,7 +1042,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:df494e3b-5699-4c29-a438-3895f9305002",
+      "bom-ref": "urn:uuid:183db78f-066f-4d51-8ebb-884527f13eeb",
       "name": "libjpeg-turbo",
       "properties": [
         {
@@ -1159,7 +1159,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:6c5aaf47-e3de-4b07-9844-58432ac880c7",
+      "bom-ref": "urn:uuid:49353643-4328-416e-907a-778e88d37c0b",
       "name": "OpenCV",
       "properties": [
         {
@@ -1276,7 +1276,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:e21e40e1-0714-4350-8816-4851538250d6",
+      "bom-ref": "urn:uuid:7904c8bb-4822-44d7-9969-9fb0c628ff0c",
       "name": "SNMP++",
       "properties": [
         {
@@ -1393,7 +1393,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:0d4f6ed0-3947-404e-b27c-21982dddb62f",
+      "bom-ref": "urn:uuid:037c12ac-8841-4f79-a3bb-6d46df4f3a7e",
       "name": "Gammu",
       "properties": [
         {
@@ -1511,7 +1511,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:08905be6-4fbb-41c3-9f3d-a8a1a56f3463",
+      "bom-ref": "urn:uuid:6b424285-9d84-4f81-b82d-0d2b5dd6f2ef",
       "name": "HIDAPI",
       "properties": [
         {
@@ -1629,7 +1629,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:13e9b343-5436-4826-a244-06db6acaef07",
+      "bom-ref": "urn:uuid:2075eac9-3804-4b3e-a6c6-0bf01f1be89f",
       "name": "Tango Icon Library",
       "properties": [
         {
@@ -1746,343 +1746,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:15002d1c-5a9d-4470-974d-72f95005a503",
-      "name": "Curl",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAIAAACPoCp1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVElEQVRIidVWbUxTZxQ+UBQuH2JJDJg4ZPJh2ARBCBUd0wEBR1amrqsdYwMdDMOYIpuAEWoG4lAkmTIFkU1qOomwsS/BAYMENpwoVKpVgVI+ChTtKEOgtGDvfffjurcFysdI/OH5dfOce57nvM977sk1QQjB8wzT58q+RAGSpI5+LdwSlcw/f4WkKMNUtag5JD2Zd+p4j/LR0gUEv9bJ+gaFWUkPuuRXKusxPjI+nnjx3Mno2DBf1qcFeUsXGFCqNnuuX7fGgeWxvl+pwvjw+JidjY2Xs2uw16YB1RANmv1fdoRQfYvkTltXg+h+p3ywIo+PUw0SsaS3Zwc/RTX65NBOzhIFSqsbb4jbAGBMrWkSnibMl9P4iHo886oQAO7IpHUncjesfZnG9RZNaCd7FMr52dUabdo5IQAwTE1zk/ZhdgDILitRjY4CwP432Zhdf4LaW3cTviywIiw2uKwtzjg4l0CO4McBpQoA9u0M9nRzwvjDPnlRdSUA2K9kHn5nz7QahBBCKDD2aNO9DpKiAvam3pP2IGPRq1DavR5BsDgOQVHK4RHD1O6sY7Zcti2XLaitnlH1zKIVVpay/sHhJ2MjY2rCwtxo+ylnBJrJKQBI/5i7immL8YrbTbViEQBscnaNfCN4Zhmt09k3GByX7r4r/sL3vxltv7ZJTLA4BIvjG5H0VKfDuGZq0jMhxpbLZu4Jb5a2zy58dgfOaxxqCjLmsp4kqdSzAvo5+2CUGYOBU/mVv/QqHwPAu69t93Fxm127qA+tsLxK0ikHgLe3s4L8PDGuGFadLi8FABuCyIiMNlo7TYCavljoGPpnNLPwKgAQ5stPJkYZpvjCS2qtFgCSOTz7lcz5BB509W2NTnEKiz1VXD7jjeNFpSNjagA4EMF2dFiF8VsdbT/c+AMA1jmsjgt9yyg7wH+XHJbwxfU/WyY0kz7vHZLKFfiKxO3d1v5cgsVxDd+v1mgxTpLkttREejSrRLeNzsW0MdWRlIX5MgbDlMFgTE49xdpJud/QCzn7wIeWBuN7ua6mtUsGADt8/EK8fedsH3/Jx+J40fyvSJJib/N71dmRBsvrbtJrZ6uX+67AzbhmdGIiq/Q7AFhmZpYZuXcedr1FCCGdjlRP6E1Qa7Su4XEEi2Ptz73b0W146iPFF2lz+MJL85gzzSIAYDBMLQm9CTnF5f2PVQAQszvEw9UJ42198sKqCgBYzbSbuXbmscgwKArll10/W3INAJgrrNNiuDjV1P7w8LcXdCQJAGm8D6wtiAUFYPah8kqu8VJyGkT3/d7/LPfyTxhXqIY8PvmotlV0RFDk/3kCRVEL+oPwqjAMiUzOCd4S4P1KEGujjZW+R9mjQfeXHAM3etszmc3SdhMTk4XbN2oRLzQg/kR+fYuk+q/W3wszMe7r4ib/Wxl//oy4WxYTGrYYduMWIYSkvYqymsYZSx8hNK7R/HyzUSSTLsYcOkzQi/5n9y8MGR8cVT2myAAAAABJRU5ErkJggg=="
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "150"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://curl.se/"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "CurlLicense.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{5aba3517-294f-4c4d-9404-9b2f7138a457}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "CurlLicense.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "NOASSERTION"
-        }
-      ],
-      "version": "7.60.0",
-      "cpe": "cpe:2.3:a:haxx:curl:7.60.0:*:*:*:*:*:*:*",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://curl.se/"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "custom",
-            "acknowledgement": "declared",
-            "text": {
-              "contentType": "text/plain",
-              "content": "COPYRIGHT AND PERMISSION NOTICE\n\nCopyright (c) 1996 - 2024, Daniel Stenberg, daniel@haxx.se, and many contributors, see the THANKS file.\n\nAll rights reserved.\n\nPermission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder."
-            }
-          }
-        }
-      ],
-      "evidence": {
-        "copyright": [
-          {
-            "text": "Copyright (C) 1998 - 2018, Daniel Stenberg, <daniel@haxx.se>, et al."
-          }
-        ]
-      }
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:0a25430e-ef4b-4bfc-ba45-b160e5778d09",
-      "name": "MPEG-4",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAH1GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDEtMDRUMTc6NDg6MzYrMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTAxLTA0VDE3OjQ4OjM2KzAxOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjIzZGU2YjZmLTgyN2ItMTFlNy1iZGYzLTg0MDg3YTg5NDc5MCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjZiYzUzYjk4LTAyMzktZWQ0Ni1hMjVmLTEyMDI5MzNlYWEwZSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgdGlmZjpPcmllbnRhdGlvbj0iMSIgdGlmZjpYUmVzb2x1dGlvbj0iNzIwMDAwLzEwMDAwIiB0aWZmOllSZXNvbHV0aW9uPSI3MjAwMDAvMTAwMDAiIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiIGV4aWY6Q29sb3JTcGFjZT0iNjU1MzUiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSIzMiIgZXhpZjpQaXhlbFlEaW1lbnNpb249IjMyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2YmM1M2I5OC0wMjM5LWVkNDYtYTI1Zi0xMjAyOTMzZWFhMGUiIHN0RXZ0OndoZW49IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZjVkNjY3M2YtMDUxOC1lMjRjLWE0MTQtNmY3NTIxNjljMDU2IiBzdEV2dDp3aGVuPSIyMDE3LTA4LTE2VDE0OjA1OjI1KzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgc3RFdnQ6d2hlbj0iMjAxOC0wMS0wNFQxNzo0ODozNiswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4nAz3lAAAAK0lEQVRYw+3OMQEAAAwCoNk/tIvhAwlI21uKgICAgICAgICAgICAgIDAOvCbVV/BhlrsIQAAAABJRU5ErkJggg=="
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "160"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://www.mpegla.com"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "mpegla4License.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{F6B23B19-CFF3-4C87-9BF9-994FE408ABA5}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "mpegla4License.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "NOASSERTION"
-        }
-      ],
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://www.mpegla.com"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "custom",
-            "acknowledgement": "declared",
-            "text": {
-              "contentType": "text/plain",
-              "content": "MPEG-4 VISUAL PATENT PORTFOLIO LICENSE\n\nTHIS PRODUCT IS LICENSED UNDER THE MPEG-4 VISUAL PATENT PORTFOLIO\n\nLICENSE FOR THE PERSONAL AND NON-COMMERCIAL USE\n\nOF A CONSUMER FOR (i) ENCODING VIDEO IN COMPLIANCE\n\nWITH THE MPEG-4 VISUAL STANDARD (\"MPEG-4 VIDEO\")\n\nAND/OR (ii) DECODING MPEG-4 VIDEO THAT WAS ENCODED\n\nBY A CONSUMER ENGAGED IN A PERSONAL AND NONCOMMERCIAL\n\nACTIVITY AND/OR WAS OBTAINED FROM A\n\nVIDEO PROVIDER LICENSED BY MPEG LA TO PROVIDE\n\nMPEG-4 VIDEO. NO LICENSE IS GRANTED OR SHALL BE\n\nIMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION\n\nINCLUDING THAT RELATING TO PROMOTIONAL, INTERNAL\n\nAND COMMERCIAL USES AND LICENSING MAY BE OBTAINED\n\nFROM MPEG LA, LLC. SEE \n\nHTTP://WWW.MPEGLA.COM."
-            }
-          }
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:2918a1de-63db-4851-a839-3f76c0f19455",
-      "name": "H.264",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAH1GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDEtMDRUMTc6NDg6MzYrMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTAxLTA0VDE3OjQ4OjM2KzAxOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjIzZGU2YjZmLTgyN2ItMTFlNy1iZGYzLTg0MDg3YTg5NDc5MCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjZiYzUzYjk4LTAyMzktZWQ0Ni1hMjVmLTEyMDI5MzNlYWEwZSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgdGlmZjpPcmllbnRhdGlvbj0iMSIgdGlmZjpYUmVzb2x1dGlvbj0iNzIwMDAwLzEwMDAwIiB0aWZmOllSZXNvbHV0aW9uPSI3MjAwMDAvMTAwMDAiIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiIGV4aWY6Q29sb3JTcGFjZT0iNjU1MzUiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSIzMiIgZXhpZjpQaXhlbFlEaW1lbnNpb249IjMyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2YmM1M2I5OC0wMjM5LWVkNDYtYTI1Zi0xMjAyOTMzZWFhMGUiIHN0RXZ0OndoZW49IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZjVkNjY3M2YtMDUxOC1lMjRjLWE0MTQtNmY3NTIxNjljMDU2IiBzdEV2dDp3aGVuPSIyMDE3LTA4LTE2VDE0OjA1OjI1KzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgc3RFdnQ6d2hlbj0iMjAxOC0wMS0wNFQxNzo0ODozNiswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4nAz3lAAAAK0lEQVRYw+3OMQEAAAwCoNk/tIvhAwlI21uKgICAgICAgICAgICAgIDAOvCbVV/BhlrsIQAAAABJRU5ErkJggg=="
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "170"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://www.mpegla.com"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "h264license.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{BAC8A236-6B4C-4110-8E2D-5D98BD0CDBA9}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "h264license.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "NOASSERTION"
-        }
-      ],
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://www.mpegla.com"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "name": "custom",
-            "acknowledgement": "declared",
-            "text": {
-              "contentType": "text/plain",
-              "content": "﻿H.264 / AVC PATENT PORTFOLIO LICENSE\n\nTHIS PRODUCT IS LICENSED UNDER THE\n\nAVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL USE OF A\n\nCONSUMER OR OTHER USES IN WHICH IT DOES NOT RECEIVE\n\nREMUNERATION TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE\n\nAVC STANDARD (“AVC VIDEO”) AND/OR (ii) DECODE AVC VIDEO\n\nTHAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL\n\nACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER\n\nLICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR\n\nSHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL\n\nINFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE\n\nHTTP://WWW.MPEGLA.COM"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:ebeeea83-212e-4d36-bb32-5db4e9e41cff",
+      "bom-ref": "urn:uuid:77102ea1-6f13-4838-a230-86fb0642c42e",
       "name": "jsonata-js/jsonata",
       "properties": [
         {
@@ -2170,8 +1834,8 @@
           "value": "MIT"
         }
       ],
-      "version": "2.1.0",
-      "cpe": "cpe:2.3:a:jsonata:jsonata:2.1.0:*:*:*:*:*:*:*",
+      "version": "1.8.7",
+      "cpe": "cpe:2.3:a:jsonata:jsonata:1.8.7:*:*:*:*:*:*:*",
       "externalReferences": [
         {
           "type": "website",
@@ -2184,7 +1848,7 @@
             "id": "MIT",
             "text": {
               "contentType": "text/plain",
-              "content": "MIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\n\nof this software and associated documentation files (the \"Software\"), to deal\n\nin the Software without restriction, including without limitation the rights\n\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\ncopies of the Software, and to permit persons to whom the Software is\n\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n\nSOFTWARE."
+              "content": "Download:\n\nhttps://cdn.jsdelivr.net/npm/jsonata@1.8.7/jsonata.min.js\n\n(md5: d758e6f8d3018b59f09c11cbe8ca8bfc)\n\nMIT License\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\n\nof this software and associated documentation files (the \"Software\"), to deal\n\nin the Software without restriction, including without limitation the rights\n\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\ncopies of the Software, and to permit persons to whom the Software is\n\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n\nSOFTWARE."
             }
           }
         }
@@ -2192,7 +1856,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:6086d861-bbf6-45e5-a2dd-93dd74b20a93",
+      "bom-ref": "urn:uuid:d15c2b5e-7f74-452f-9441-34af48671eca",
       "name": "SVG-edit",
       "properties": [
         {
@@ -2307,7 +1971,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:755fe562-1f4c-433f-9d6c-e27c31baeb88",
+      "bom-ref": "urn:uuid:fca7df85-2737-4eb6-bcb3-6cc78e06a5a0",
       "name": "QCodeEditor",
       "properties": [
         {
@@ -2422,7 +2086,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:52e00ae4-0793-4c6a-aa8c-81be5d61db90",
+      "bom-ref": "urn:uuid:96805d6d-a610-4779-9fc0-4cc68554af08",
       "name": "ankerl::unordered_dense 4.7.0",
       "properties": [
         {
@@ -2537,8 +2201,8 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:789a8f2e-8bf8-408b-bf35-69448a397c68",
-      "name": "pugixml 1.15",
+      "bom-ref": "urn:uuid:fead13c9-11c8-4aba-bae9-eb6ce5cfefab",
+      "name": "pugixml",
       "properties": [
         {
           "name": "accellence:about:icon",
@@ -2625,6 +2289,7 @@
           "value": "MIT"
         }
       ],
+      "version": "1.15",
       "externalReferences": [
         {
           "type": "website",
@@ -2652,7 +2317,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:ff5ea44d-0407-45e8-b0aa-26160af29c3e",
+      "bom-ref": "urn:uuid:b2164ef2-2fd5-4563-bfd7-5bbc5cae8d2e",
       "name": "QJsonModel",
       "properties": [
         {
@@ -2767,7 +2432,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:2251303f-cc02-4e97-a2ef-5664c65753db",
+      "bom-ref": "urn:uuid:c4d202a1-1cda-40c3-af16-c9dc1f4725db",
       "name": "open62541",
       "properties": [
         {
@@ -2885,7 +2550,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:6ca4e8bd-f0b4-4b09-a0b9-626ea906bba1",
+      "bom-ref": "urn:uuid:ea991631-3048-466d-8611-6e8bf7e9d089",
       "name": "Qt OPC UA",
       "properties": [
         {
@@ -3004,117 +2669,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:18770d1b-baa9-4dd3-a5c0-1a3ffa3c571d",
-      "name": "OpenVINO Toolkit",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAH1GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDEtMDRUMTc6NDg6MzYrMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTAxLTA0VDE3OjQ4OjM2KzAxOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjIzZGU2YjZmLTgyN2ItMTFlNy1iZGYzLTg0MDg3YTg5NDc5MCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjZiYzUzYjk4LTAyMzktZWQ0Ni1hMjVmLTEyMDI5MzNlYWEwZSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgdGlmZjpPcmllbnRhdGlvbj0iMSIgdGlmZjpYUmVzb2x1dGlvbj0iNzIwMDAwLzEwMDAwIiB0aWZmOllSZXNvbHV0aW9uPSI3MjAwMDAvMTAwMDAiIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiIGV4aWY6Q29sb3JTcGFjZT0iNjU1MzUiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSIzMiIgZXhpZjpQaXhlbFlEaW1lbnNpb249IjMyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2YmM1M2I5OC0wMjM5LWVkNDYtYTI1Zi0xMjAyOTMzZWFhMGUiIHN0RXZ0OndoZW49IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZjVkNjY3M2YtMDUxOC1lMjRjLWE0MTQtNmY3NTIxNjljMDU2IiBzdEV2dDp3aGVuPSIyMDE3LTA4LTE2VDE0OjA1OjI1KzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgc3RFdnQ6d2hlbj0iMjAxOC0wMS0wNFQxNzo0ODozNiswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4nAz3lAAAAK0lEQVRYw+3OMQEAAAwCoNk/tIvhAwlI21uKgICAgICAgICAgICAgIDAOvCbVV/BhlrsIQAAAABJRU5ErkJggg=="
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "250"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://software.intel.com/en-us/openvino-toolkit"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "OpenVINOToolkit_About.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{747997F4-623E-4377-9E75-0FFAF984683B}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "OpenVINOToolkit_About.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "Apache-2.0"
-        }
-      ],
-      "version": "2023.0.0.10926",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://software.intel.com/en-us/openvino-toolkit"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "text": {
-              "contentType": "text/plain",
-              "content": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License."
-            }
-          }
-        }
-      ],
-      "description": "Intel(R) Distribution of OpenVINO(TM) Toolkit"
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:2dca1a7d-974b-46bd-b0fb-8cad5eb7eae7",
+      "bom-ref": "urn:uuid:1d6c08a1-1293-49cd-bbc4-c69d2511e6b5",
       "name": "OpenVINO Toolkit",
       "properties": [
         {
@@ -3224,7 +2779,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:4db63801-f53e-4ef6-8dba-3ceb064d5caa",
+      "bom-ref": "urn:uuid:ee017fef-1d93-4fc5-be0d-33683fe22905",
       "name": "OpenCV",
       "properties": [
         {
@@ -3341,124 +2896,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:b44a142a-a977-475a-9090-72d83fd21e4f",
-      "name": "OpenCV",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAuJAAALiQE3ycutAAAF62lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wMS0wNFQxODowNDo1OCswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTgtMDEtMDRUMTg6MDY6NTErMDE6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDEtMDRUMTg6MDY6NTErMDE6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ZmY2OGQ2MmItOWNmNC1mOTQwLWI1M2QtNGEyNTlkZGZiNjczIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NjFlZmJjZTYtOTNlOS02NTRjLWI2ZDQtM2U5YTBkNDYwODUwIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NGZhYjJhMDYtNWJjNC1lNjQ3LTliYmUtYjdlZWFlMjVjNmY3Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0ZmFiMmEwNi01YmM0LWU2NDctOWJiZS1iN2VlYWUyNWM2ZjciIHN0RXZ0OndoZW49IjIwMTgtMDEtMDRUMTg6MDQ6NTgrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmZmNjhkNjJiLTljZjQtZjk0MC1iNTNkLTRhMjU5ZGRmYjY3MyIgc3RFdnQ6d2hlbj0iMjAxOC0wMS0wNFQxODowNjo1MSswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz53QjfbAAADA0lEQVRYw8WXX0iTURjGX3KUWJaVhoUFFfYP677QurCS7EKLLrKgUqg0CqIgEcLyIvXCDKwEI0MqL7oQJSlSlxViEmakNSLJi9Doz1TUCPNPrOfYt3H2fufs28YX8u0H23mf8z7Pzs7Ot5HH46HZhPAIlQ3gGngDRsAgaAOFIC7UfqGaCxNPAEbB0f8V4LqFuUye3QH2hWDuZaOdAdwKg2/gFrgLJhX1p3YF2K5o3g7mS5rVoF+hW25HgCLWdBqsVOj2KgJk2BGgkjX9rtHFKAIctyNACWs6ARYqdMmKAAfsCKBa2ocgXtIkgncK3SrLAIfv/yO7mqi4gKhns0nkAOOK5umSJldR7+JmU+SgE1RFu6iZUsk5gzLWzhaiJ2l+Q3ms+Us2ZQ74yDTbeOvd1BTa0ZfR4LciDVLzRIV8q1S/wuunqYLCuvMICop9T5tAXQCpOHyq+Xg+lYZlHAniQbR4vaWbyLXJelobpdAdyvFxiipDNs4GTuAGk2AEdIBCxxQtKCokKjsPsGEvn4yn/VTnI50ehb/MIAG8AoGuFX5zzpk21UHQBaI0JsdAD0jgtVgwaGGe4zen6BJvniJ9Cco0AfqN+g+wRK61W5j3mnrFuuWBSPCTHQXrmflFVn/mraVqTBtBMXgAdpgC1B6SB/IVPwlapXqM5mdDsqjfU5jnBrVv1vR5X3Szxr/BHrZCFxQBqkT9AzPvCHrjVpwRT+LAH9b4qmbSW6brFOPDLEC5xjAFVIKbBjdoCPsoYjpO8c6yNAFqmG5AjL9nATo1AZymD2poMdHcCVGcYo1vawL0Ml2bGK9R7IGzbG6mQvOc3EuJIsfJWEq+CpnMvEShKSdjh6uuFlAK6jX1IzSMFYj6JZrnanb5Y4Cz2PNaU/fd6lotzgF+9c3MG4smih7jh0yw1MortAh8CdJc3B/WKgKsA5NBmovjOILvkWXghYW5CyT55vgHECQZzQOZ14N5gb7fWcYp+BmMggHQDPJMWnMALzmgEXwCX4HLWPI0k3a2/57/BdIV75F0gzXWAAAAAElFTkSuQmCC"
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "260"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://www.opencv.org"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "OpenCV_dnn_About.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{AE20D64A-56D5-4B87-B8D6-FB212AC453DB}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "OpenCV_dnn_About.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "Apache-2.0"
-        }
-      ],
-      "version": "4.7.0",
-      "cpe": "cpe:2.3:a:opencv:opencv:4.7.0:*:*:*:*:*:*:*",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://www.opencv.org"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "text": {
-              "contentType": "text/plain",
-              "content": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License."
-            }
-          }
-        }
-      ],
-      "evidence": {
-        "copyright": [
-          {
-            "text": "Copyright (C) 2000-2022, Intel Corporation, all rights reserved.\n Copyright (C) 2009-2011, Willow Garage Inc., all rights reserved.\n Copyright (C) 2009-2016, NVIDIA Corporation, all rights reserved.\n Copyright (C) 2010-2013, Advanced Micro Devices, Inc., all rights reserved.\n Copyright (C) 2015-2023, OpenCV Foundation, all rights reserved.\n Copyright (C) 2008-2016, Itseez Inc., all rights reserved.\n Copyright (C) 2019-2023, Xperience AI, all rights reserved.\n Copyright (C) 2019-2022, Shenzhen Institute of Artificial Intelligence and\n Robotics for Society, all rights reserved.\n Third party copyrights are property of their respective owners."
-          }
-        ]
-      }
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:72d8d01e-a478-4032-afa5-52556e1a14b4",
+      "bom-ref": "urn:uuid:30e56cc4-e437-471a-a35d-2df6858af705",
       "name": "vimacc DNN Plugin",
       "properties": [
         {
@@ -3564,234 +3002,7 @@
     },
     {
       "type": "library",
-      "bom-ref": "urn:uuid:25570c67-4b0f-42ad-ab4b-9b949e810cef",
-      "name": "OpenVINO Toolkit",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAH1GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDEtMDRUMTc6NDg6MzYrMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTAxLTA0VDE3OjQ4OjM2KzAxOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjIzZGU2YjZmLTgyN2ItMTFlNy1iZGYzLTg0MDg3YTg5NDc5MCIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjZiYzUzYjk4LTAyMzktZWQ0Ni1hMjVmLTEyMDI5MzNlYWEwZSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgdGlmZjpPcmllbnRhdGlvbj0iMSIgdGlmZjpYUmVzb2x1dGlvbj0iNzIwMDAwLzEwMDAwIiB0aWZmOllSZXNvbHV0aW9uPSI3MjAwMDAvMTAwMDAiIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiIGV4aWY6Q29sb3JTcGFjZT0iNjU1MzUiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSIzMiIgZXhpZjpQaXhlbFlEaW1lbnNpb249IjMyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2YmM1M2I5OC0wMjM5LWVkNDYtYTI1Zi0xMjAyOTMzZWFhMGUiIHN0RXZ0OndoZW49IjIwMTctMDgtMTZUMTQ6MDU6MjUrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE3IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZjVkNjY3M2YtMDUxOC1lMjRjLWE0MTQtNmY3NTIxNjljMDU2IiBzdEV2dDp3aGVuPSIyMDE3LTA4LTE2VDE0OjA1OjI1KzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmI0ZWY4MTE2LTkyYTgtYjM0YS04YzZlLWZmMDE1MjdmYzMxNiIgc3RFdnQ6d2hlbj0iMjAxOC0wMS0wNFQxNzo0ODozNiswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4nAz3lAAAAK0lEQVRYw+3OMQEAAAwCoNk/tIvhAwlI21uKgICAgICAgICAgICAgIDAOvCbVV/BhlrsIQAAAABJRU5ErkJggg=="
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "999"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://software.intel.com/en-us/openvino-toolkit"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "OpenVINOToolkit_About.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{747997F4-623E-4377-9E75-0FFAF984683B}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "OpenVINOToolkit_About.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "Apache-2.0"
-        }
-      ],
-      "version": "2021.2.185",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://software.intel.com/en-us/openvino-toolkit"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "text": {
-              "contentType": "text/plain",
-              "content": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License."
-            }
-          }
-        }
-      ],
-      "description": "Intel(R) Distribution of OpenVINO(TM) Toolkit"
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:b16dc44f-d508-446f-98d5-9fb54df2b474",
-      "name": "OpenCV",
-      "properties": [
-        {
-          "name": "accellence:about:icon",
-          "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAuJAAALiQE3ycutAAAF62lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wMS0wNFQxODowNDo1OCswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTgtMDEtMDRUMTg6MDY6NTErMDE6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDEtMDRUMTg6MDY6NTErMDE6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ZmY2OGQ2MmItOWNmNC1mOTQwLWI1M2QtNGEyNTlkZGZiNjczIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NjFlZmJjZTYtOTNlOS02NTRjLWI2ZDQtM2U5YTBkNDYwODUwIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NGZhYjJhMDYtNWJjNC1lNjQ3LTliYmUtYjdlZWFlMjVjNmY3Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0ZmFiMmEwNi01YmM0LWU2NDctOWJiZS1iN2VlYWUyNWM2ZjciIHN0RXZ0OndoZW49IjIwMTgtMDEtMDRUMTg6MDQ6NTgrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmZmNjhkNjJiLTljZjQtZjk0MC1iNTNkLTRhMjU5ZGRmYjY3MyIgc3RFdnQ6d2hlbj0iMjAxOC0wMS0wNFQxODowNjo1MSswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz53QjfbAAADA0lEQVRYw8WXX0iTURjGX3KUWJaVhoUFFfYP677QurCS7EKLLrKgUqg0CqIgEcLyIvXCDKwEI0MqL7oQJSlSlxViEmakNSLJi9Doz1TUCPNPrOfYt3H2fufs28YX8u0H23mf8z7Pzs7Ot5HH46HZhPAIlQ3gGngDRsAgaAOFIC7UfqGaCxNPAEbB0f8V4LqFuUye3QH2hWDuZaOdAdwKg2/gFrgLJhX1p3YF2K5o3g7mS5rVoF+hW25HgCLWdBqsVOj2KgJk2BGgkjX9rtHFKAIctyNACWs6ARYqdMmKAAfsCKBa2ocgXtIkgncK3SrLAIfv/yO7mqi4gKhns0nkAOOK5umSJldR7+JmU+SgE1RFu6iZUsk5gzLWzhaiJ2l+Q3ms+Us2ZQ74yDTbeOvd1BTa0ZfR4LciDVLzRIV8q1S/wuunqYLCuvMICop9T5tAXQCpOHyq+Xg+lYZlHAniQbR4vaWbyLXJelobpdAdyvFxiipDNs4GTuAGk2AEdIBCxxQtKCokKjsPsGEvn4yn/VTnI50ehb/MIAG8AoGuFX5zzpk21UHQBaI0JsdAD0jgtVgwaGGe4zen6BJvniJ9Cco0AfqN+g+wRK61W5j3mnrFuuWBSPCTHQXrmflFVn/mraVqTBtBMXgAdpgC1B6SB/IVPwlapXqM5mdDsqjfU5jnBrVv1vR5X3Szxr/BHrZCFxQBqkT9AzPvCHrjVpwRT+LAH9b4qmbSW6brFOPDLEC5xjAFVIKbBjdoCPsoYjpO8c6yNAFqmG5AjL9nATo1AZymD2poMdHcCVGcYo1vawL0Ml2bGK9R7IGzbG6mQvOc3EuJIsfJWEq+CpnMvEShKSdjh6uuFlAK6jX1IzSMFYj6JZrnanb5Y4Cz2PNaU/fd6lotzgF+9c3MG4smih7jh0yw1MortAh8CdJc3B/WKgKsA5NBmovjOILvkWXghYW5CyT55vgHECQZzQOZ14N5gb7fWcYp+BmMggHQDPJMWnMALzmgEXwCX4HLWPI0k3a2/57/BdIV75F0gzXWAAAAAElFTkSuQmCC"
-        },
-        {
-          "name": "accellence:about:publish",
-          "value": "true"
-        },
-        {
-          "name": "accellence:about:sortKey",
-          "value": "1000"
-        },
-        {
-          "name": "accellence:about:urls.homepage",
-          "value": "https://www.opencv.org"
-        },
-        {
-          "name": "accellence:about:urls.download",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:files",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:linkage",
-          "value": ""
-        },
-        {
-          "name": "accellence:artifact:primaryLanguage",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:direct",
-          "value": "true"
-        },
-        {
-          "name": "accellence:metadata:legal:licenseObligations",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:additionalCopyrightInformation",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:legal:thirdPartyNotices",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:id",
-          "value": ""
-        },
-        {
-          "name": "accellence:signature:issuer:pipeline",
-          "value": ""
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceFile",
-          "value": "OpenCV_dnn_About.json"
-        },
-        {
-          "name": "accellence:metadata:sbom:sourceUuid",
-          "value": "{AE20D64A-56D5-4B87-B8D6-FB212AC453DB}"
-        },
-        {
-          "name": "bsi:component:executable",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:archive",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:structured",
-          "value": ""
-        },
-        {
-          "name": "bsi:component:filename",
-          "value": "OpenCV_dnn_About.json"
-        },
-        {
-          "name": "bsi:component:effectiveLicence",
-          "value": "Apache-2.0"
-        }
-      ],
-      "version": "4.5.1",
-      "cpe": "cpe:2.3:a:opencv:opencv:4.5.1:*:*:*:*:*:*:*",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://www.opencv.org"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0",
-            "text": {
-              "contentType": "text/plain",
-              "content": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License."
-            }
-          }
-        }
-      ],
-      "evidence": {
-        "copyright": [
-          {
-            "text": "Copyright (C) 2000-2021, Intel Corporation, all rights reserved.\nCopyright (C) 2009-2011, Willow Garage Inc., all rights reserved.\nCopyright (C) 2009-2016, NVIDIA Corporation, all rights reserved.\nCopyright (C) 2010-2013, Advanced Micro Devices, Inc., all rights reserved.\nCopyright (C) 2015-2021, OpenCV Foundation, all rights reserved.\nCopyright (C) 2008-2016, Itseez Inc., all rights reserved.\nCopyright (C) 2019-2021, Xperience AI, all rights reserved.\nCopyright (C) 2019-2021, Shenzhen Institute of Artificial Intelligence and\n                         Robotics for Society, all rights reserved.\n\nThird party copyrights are property of their respective owners."
-          }
-        ]
-      }
-    },
-    {
-      "type": "library",
-      "bom-ref": "urn:uuid:0e70f35b-349a-4f20-8ce9-3286ceb99179",
+      "bom-ref": "urn:uuid:5d4fd316-7550-452a-89fd-a8978bb0643b",
       "name": "libmaia",
       "properties": [
         {
@@ -3899,171 +3110,136 @@
     {
       "ref": "pkg:generic/accellence/vimacc@2.2.15.22",
       "dependsOn": [
-        "urn:uuid:84dff0c0-9c17-4b89-bd66-5e36d14ab439",
-        "urn:uuid:f6ab3bd0-e2d8-4791-acd0-01ff7d2f610e",
-        "urn:uuid:d6610883-d4f4-4814-8db7-4ecd7d8cd829",
-        "urn:uuid:99b7dafc-97fe-4d69-b66d-14f6386ff51a",
-        "urn:uuid:4d7f0aba-855a-45cf-89fc-086239b2b174",
-        "urn:uuid:a91be571-bfed-448e-8fbd-a94ee46176c3",
-        "urn:uuid:7ae672b1-7221-49a6-ad72-e56eedd3042a",
-        "urn:uuid:de974c1b-fbf1-44b0-8ce5-6aefd30b86c4",
-        "urn:uuid:df494e3b-5699-4c29-a438-3895f9305002",
-        "urn:uuid:6c5aaf47-e3de-4b07-9844-58432ac880c7",
-        "urn:uuid:e21e40e1-0714-4350-8816-4851538250d6",
-        "urn:uuid:0d4f6ed0-3947-404e-b27c-21982dddb62f",
-        "urn:uuid:08905be6-4fbb-41c3-9f3d-a8a1a56f3463",
-        "urn:uuid:13e9b343-5436-4826-a244-06db6acaef07",
-        "urn:uuid:15002d1c-5a9d-4470-974d-72f95005a503",
-        "urn:uuid:0a25430e-ef4b-4bfc-ba45-b160e5778d09",
-        "urn:uuid:2918a1de-63db-4851-a839-3f76c0f19455",
-        "urn:uuid:ebeeea83-212e-4d36-bb32-5db4e9e41cff",
-        "urn:uuid:6086d861-bbf6-45e5-a2dd-93dd74b20a93",
-        "urn:uuid:755fe562-1f4c-433f-9d6c-e27c31baeb88",
-        "urn:uuid:52e00ae4-0793-4c6a-aa8c-81be5d61db90",
-        "urn:uuid:789a8f2e-8bf8-408b-bf35-69448a397c68",
-        "urn:uuid:ff5ea44d-0407-45e8-b0aa-26160af29c3e",
-        "urn:uuid:2251303f-cc02-4e97-a2ef-5664c65753db",
-        "urn:uuid:6ca4e8bd-f0b4-4b09-a0b9-626ea906bba1",
-        "urn:uuid:18770d1b-baa9-4dd3-a5c0-1a3ffa3c571d",
-        "urn:uuid:2dca1a7d-974b-46bd-b0fb-8cad5eb7eae7",
-        "urn:uuid:4db63801-f53e-4ef6-8dba-3ceb064d5caa",
-        "urn:uuid:b44a142a-a977-475a-9090-72d83fd21e4f",
-        "urn:uuid:72d8d01e-a478-4032-afa5-52556e1a14b4",
-        "urn:uuid:25570c67-4b0f-42ad-ab4b-9b949e810cef",
-        "urn:uuid:b16dc44f-d508-446f-98d5-9fb54df2b474",
-        "urn:uuid:0e70f35b-349a-4f20-8ce9-3286ceb99179"
+        "urn:uuid:c1eef8b0-7828-4a9d-8c3b-89ff31ca306d",
+        "urn:uuid:82be1c3a-e10f-41d2-a546-1d18fbaca19a",
+        "urn:uuid:be1702a5-b21a-432e-97a2-8eea18f27646",
+        "urn:uuid:d4d17c47-a683-4187-879b-4a9f841e6541",
+        "urn:uuid:b245d446-c0dc-48e2-971e-af492e3b3af2",
+        "urn:uuid:ffb0b2d4-6920-433f-919f-132b1f0dbb17",
+        "urn:uuid:8afc3e39-26da-4d37-aaec-0ff8c0375214",
+        "urn:uuid:800b31c8-e252-4347-99c0-8fea55dd6a38",
+        "urn:uuid:183db78f-066f-4d51-8ebb-884527f13eeb",
+        "urn:uuid:49353643-4328-416e-907a-778e88d37c0b",
+        "urn:uuid:7904c8bb-4822-44d7-9969-9fb0c628ff0c",
+        "urn:uuid:037c12ac-8841-4f79-a3bb-6d46df4f3a7e",
+        "urn:uuid:6b424285-9d84-4f81-b82d-0d2b5dd6f2ef",
+        "urn:uuid:2075eac9-3804-4b3e-a6c6-0bf01f1be89f",
+        "urn:uuid:77102ea1-6f13-4838-a230-86fb0642c42e",
+        "urn:uuid:d15c2b5e-7f74-452f-9441-34af48671eca",
+        "urn:uuid:fca7df85-2737-4eb6-bcb3-6cc78e06a5a0",
+        "urn:uuid:96805d6d-a610-4779-9fc0-4cc68554af08",
+        "urn:uuid:fead13c9-11c8-4aba-bae9-eb6ce5cfefab",
+        "urn:uuid:b2164ef2-2fd5-4563-bfd7-5bbc5cae8d2e",
+        "urn:uuid:c4d202a1-1cda-40c3-af16-c9dc1f4725db",
+        "urn:uuid:ea991631-3048-466d-8611-6e8bf7e9d089",
+        "urn:uuid:1d6c08a1-1293-49cd-bbc4-c69d2511e6b5",
+        "urn:uuid:ee017fef-1d93-4fc5-be0d-33683fe22905",
+        "urn:uuid:30e56cc4-e437-471a-a35d-2df6858af705",
+        "urn:uuid:5d4fd316-7550-452a-89fd-a8978bb0643b"
       ]
     },
     {
-      "ref": "urn:uuid:84dff0c0-9c17-4b89-bd66-5e36d14ab439",
+      "ref": "urn:uuid:c1eef8b0-7828-4a9d-8c3b-89ff31ca306d",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:f6ab3bd0-e2d8-4791-acd0-01ff7d2f610e",
+      "ref": "urn:uuid:82be1c3a-e10f-41d2-a546-1d18fbaca19a",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:d6610883-d4f4-4814-8db7-4ecd7d8cd829",
+      "ref": "urn:uuid:be1702a5-b21a-432e-97a2-8eea18f27646",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:99b7dafc-97fe-4d69-b66d-14f6386ff51a",
+      "ref": "urn:uuid:d4d17c47-a683-4187-879b-4a9f841e6541",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:4d7f0aba-855a-45cf-89fc-086239b2b174",
+      "ref": "urn:uuid:b245d446-c0dc-48e2-971e-af492e3b3af2",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:a91be571-bfed-448e-8fbd-a94ee46176c3",
+      "ref": "urn:uuid:ffb0b2d4-6920-433f-919f-132b1f0dbb17",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:7ae672b1-7221-49a6-ad72-e56eedd3042a",
+      "ref": "urn:uuid:8afc3e39-26da-4d37-aaec-0ff8c0375214",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:de974c1b-fbf1-44b0-8ce5-6aefd30b86c4",
+      "ref": "urn:uuid:800b31c8-e252-4347-99c0-8fea55dd6a38",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:df494e3b-5699-4c29-a438-3895f9305002",
+      "ref": "urn:uuid:183db78f-066f-4d51-8ebb-884527f13eeb",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:6c5aaf47-e3de-4b07-9844-58432ac880c7",
+      "ref": "urn:uuid:49353643-4328-416e-907a-778e88d37c0b",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:e21e40e1-0714-4350-8816-4851538250d6",
+      "ref": "urn:uuid:7904c8bb-4822-44d7-9969-9fb0c628ff0c",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:0d4f6ed0-3947-404e-b27c-21982dddb62f",
+      "ref": "urn:uuid:037c12ac-8841-4f79-a3bb-6d46df4f3a7e",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:08905be6-4fbb-41c3-9f3d-a8a1a56f3463",
+      "ref": "urn:uuid:6b424285-9d84-4f81-b82d-0d2b5dd6f2ef",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:13e9b343-5436-4826-a244-06db6acaef07",
+      "ref": "urn:uuid:2075eac9-3804-4b3e-a6c6-0bf01f1be89f",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:15002d1c-5a9d-4470-974d-72f95005a503",
+      "ref": "urn:uuid:77102ea1-6f13-4838-a230-86fb0642c42e",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:0a25430e-ef4b-4bfc-ba45-b160e5778d09",
+      "ref": "urn:uuid:d15c2b5e-7f74-452f-9441-34af48671eca",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:2918a1de-63db-4851-a839-3f76c0f19455",
+      "ref": "urn:uuid:fca7df85-2737-4eb6-bcb3-6cc78e06a5a0",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:ebeeea83-212e-4d36-bb32-5db4e9e41cff",
+      "ref": "urn:uuid:96805d6d-a610-4779-9fc0-4cc68554af08",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:6086d861-bbf6-45e5-a2dd-93dd74b20a93",
+      "ref": "urn:uuid:fead13c9-11c8-4aba-bae9-eb6ce5cfefab",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:755fe562-1f4c-433f-9d6c-e27c31baeb88",
+      "ref": "urn:uuid:b2164ef2-2fd5-4563-bfd7-5bbc5cae8d2e",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:52e00ae4-0793-4c6a-aa8c-81be5d61db90",
+      "ref": "urn:uuid:c4d202a1-1cda-40c3-af16-c9dc1f4725db",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:789a8f2e-8bf8-408b-bf35-69448a397c68",
+      "ref": "urn:uuid:ea991631-3048-466d-8611-6e8bf7e9d089",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:ff5ea44d-0407-45e8-b0aa-26160af29c3e",
+      "ref": "urn:uuid:1d6c08a1-1293-49cd-bbc4-c69d2511e6b5",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:2251303f-cc02-4e97-a2ef-5664c65753db",
+      "ref": "urn:uuid:ee017fef-1d93-4fc5-be0d-33683fe22905",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:6ca4e8bd-f0b4-4b09-a0b9-626ea906bba1",
+      "ref": "urn:uuid:30e56cc4-e437-471a-a35d-2df6858af705",
       "dependsOn": []
     },
     {
-      "ref": "urn:uuid:18770d1b-baa9-4dd3-a5c0-1a3ffa3c571d",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:2dca1a7d-974b-46bd-b0fb-8cad5eb7eae7",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:4db63801-f53e-4ef6-8dba-3ceb064d5caa",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:b44a142a-a977-475a-9090-72d83fd21e4f",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:72d8d01e-a478-4032-afa5-52556e1a14b4",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:25570c67-4b0f-42ad-ab4b-9b949e810cef",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:b16dc44f-d508-446f-98d5-9fb54df2b474",
-      "dependsOn": []
-    },
-    {
-      "ref": "urn:uuid:0e70f35b-349a-4f20-8ce9-3286ceb99179",
+      "ref": "urn:uuid:5d4fd316-7550-452a-89fd-a8978bb0643b",
       "dependsOn": []
     }
   ]
